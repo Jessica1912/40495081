@@ -330,7 +330,7 @@ const questionsLevelThree = [
 	}
 	
 	
-	const resultsPage = document.getElementById("results-box")
+	//const resultsPage = document.getElementById("results-box")
 	const answerContainer = document.getElementById("answers-container")
 	
 	/* This function displays the question on the screen with the answer buttons.And also it hides the previous divs */
@@ -433,10 +433,6 @@ const questionsLevelThree = [
 		
 		
 		levelContainer.classList.remove("invisible")
-		
-		//Display results page is level is more than three
-		if (level > 3){
-		resultsPage.style.visibility="visible"
 		
 	}	
 		
